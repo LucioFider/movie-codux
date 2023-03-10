@@ -12,6 +12,7 @@
   height: 50px;
   display: flex;
   align-items: center;
+  justify-items: start;
 }
 .logoimg {
   width: 50px;
@@ -22,6 +23,7 @@
   color: #9d2e2e;
 }
 .title {
+  text-align: start;
 }
 .hr {
   height: 0px;
@@ -29,6 +31,11 @@
   width: 100%;
 }
 .list {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style-type: none;
 }
 .listItem {
 }
