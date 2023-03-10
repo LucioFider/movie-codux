@@ -19,6 +19,10 @@ export const Menu = ({ className }: MenuProps) => {
                 />
                 <span className={styles.logotext}>SelloMovie</span>
             </div>
+            <span className={styles.title}>
+                Sort By
+                <hr className={styles.hr} />
+            </span>
         </div>
     );
 };

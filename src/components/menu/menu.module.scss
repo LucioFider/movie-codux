@@ -4,6 +4,9 @@
   background-color: #1a171e;
   color: white;
   padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 .logo {
   height: 50px;
@@ -17,4 +20,11 @@
 .logotext {
   font-size: 24px;
   color: #9d2e2e;
+}
+.title {
+}
+.hr {
+  height: 0px;
+  border: 0.5px solid #aba3a3;
+  width: 100%;
 }
