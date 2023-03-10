@@ -10,5 +10,5 @@ export interface CardProps {
  * To create custom component templates, see https://help.codux.com/kb/en/article/configuration-for-cards-and-templates
  */
 export const Card = ({ className }: CardProps) => {
-    return <div className={classNames(styles.root, className)}>Card</div>;
+    return <div className={classNames(styles.root, className)}></div>;
 };
